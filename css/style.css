@@ -1,0 +1,566 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+
+body{
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.container{
+
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+
+    list-style: none;
+}
+
+li{
+
+    list-style: none;
+}
+
+a{
+
+    text-decoration: none;
+}
+
+.justify{
+
+    align-items: center;
+}
+
+
+/*nav start*/
+
+nav .logo{
+
+    width: 25%;
+    text-align: center;
+}
+
+
+
+
+nav{
+
+    padding: 30px 0;
+}
+
+
+
+
+nav .menu{
+
+    width: 75%;
+    text-align: right;
+    font-size: 14px;
+
+}
+
+nav .menu li{
+
+    display: inline-block;
+}
+
+nav .menu a{
+
+    padding: 0 38px;
+    color: #000;
+    font-weight: 600;
+}
+
+/*nav end*/
+
+
+/*banner start*/
+
+
+#banner{
+
+    background-color: #F8F8F8;
+
+}
+
+
+#banner .text{
+
+    width: 60%;
+    margin: 80px 0;
+    text-align: center;
+}
+
+
+#banner .text h5{
+
+    font-size: 28px;
+    color: #000;
+}
+
+#banner .text h2{
+
+    font-size: 45px;
+    font-weight: 600;
+    color: #000;
+}
+
+#banner .text p{
+
+    font-size: 28px;
+}
+
+
+#banner .text span{
+
+    width:120px;
+    height:40px;
+    line-height:40px;
+    background: #F8991C;
+    color: #fff;
+    display: block;
+    text-align:center;
+    margin-left: 168px;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+
+
+
+#banner .text .icon{
+
+
+    margin-top: 200px;
+}
+
+#banner .text .icon p{
+
+    font-size: 16px;
+    margin-right: 196px;
+}
+
+#banner .text .icon img{
+
+    padding: 0 5px;
+}
+
+
+/*banner section end*/
+
+
+
+
+/*about section start*/
+
+
+
+
+#about{
+
+    padding: 40px 0 60px 0;
+}
+
+
+#about .about_img{
+
+
+    width: 35%;
+}
+
+#about .about_img img{
+
+    width: 100%;
+    display: block;
+}
+
+
+#about .about_text{
+
+    width: 65%;
+    padding: 0 40px 0 20px;
+}
+
+#about .about_text h5{
+
+    font-size: 16px;
+    color: #F8991C;
+}
+
+
+#about .about_text h3{
+
+    font-size: 28px;
+    font-weight: 600;
+    color: #000;
+}
+
+#about .about_text p{
+
+    font-size: 14px;
+    color: #000;
+    text-align: justify;
+    line-height: 24px;
+}
+
+
+#about .about_text span{
+
+    width:120px;
+    height:40px;
+    line-height:40px;
+    background: #F8991C;
+    color: #fff;
+    display: inline-block;
+    text-align:center;
+    margin-left: 168px;
+    margin-top: 30px;
+    border-radius: 6px;
+
+
+}
+
+
+  /* #about .about_text span:last-child{
+
+    background: #ffff;
+
+    width:120px;
+    height:40px;
+    line-height:40px;
+    
+    color: #fff;
+    display: inline-block;
+    text-align:center;
+    margin-left: 168px;
+    margin-top: 30px;
+    border-radius: 6px;  
+
+
+} */
+
+
+#about .about_item{
+
+    width: 100%;
+    padding-top: 60px;
+    display:block;
+    margin-left: 35px;
+}
+
+
+#about .about_item img{
+
+    width: 40%;
+    display: inline-block;
+    padding: 7px 30px;
+}
+
+/*what section start*/
+
+
+#what{
+
+    padding: 40px;
+    background-color: #F8F8F8;
+}
+
+#what .heading{
+
+    padding-left: 50px;
+
+}
+
+
+    #what .heading h5{
+
+        font-size: 16px;
+        color: #F8991C;
+    }
+
+    #what .heading h3{
+
+        font-size: 38px;
+        color: #000;
+    }
+
+    #what .what_item{
+
+        width: 33.33%;
+        text-align: center;
+        padding: 30px 15px;
+
+    }
+
+    #what .what_item h5{
+
+        font-size: 28px;
+        font-weight: 600;
+        color: #F8991C;
+    }
+
+
+    #what .what_item p{
+
+        font-size: 16px;
+        color: #000;
+        line-height:24px;
+        text-align: justify;
+        padding: 0 62px;
+    }
+
+
+    /*about section end*/
+
+
+
+    /*education section start*/
+
+
+#resume{
+
+    padding: 80px 40px;
+
+}
+
+
+#resume .heading{
+
+    padding-left: 50px;
+
+}
+
+
+    #resume .heading h5{
+
+        font-size: 14px;
+        color: #F8991C;
+    }
+
+    #resume .heading h3{
+
+        font-size: 24px;
+        color: #000;
+        font-weight: 600;
+    }
+
+#resume .resume_item{
+
+    width: 33.33%;
+    margin: 70px 0;
+    padding: 0 47px 0 102px;
+    display: inline-block;
+    text-align:center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+#resume .resume_item p{
+
+    font-size: 16px;
+    color: #000;
+   
+   
+
+}
+
+#resume .cnt{
+
+    padding: 10px;
+}
+
+
+/*Resume section end*/
+
+
+
+/*work section start*/
+
+
+#work{
+
+    padding: 80px 40px 40px 40px;
+    background-color: #F8F8F8;
+
+}
+
+
+#work .heading{
+
+    padding-left: 50px;
+
+}
+
+
+    #work .heading h5{
+
+        font-size: 14px;
+        color: #F8991C;
+    }
+
+    #work .heading h3{
+
+        font-size: 24px;
+        color: #000;
+        font-weight: 600;
+    }
+
+    #work .work_img{
+
+        width:25%;
+        padding: 50px;
+        display: block;
+        
+
+    }
+
+    #work .work_img img{
+
+        width: 147%;
+        box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+        
+    }
+
+
+    /*WORK SECTION END*/
+
+
+    /*client section start*/
+
+
+#client{
+
+    padding: 80px 40px 40px 40px;
+
+}
+
+
+
+ #client .heading{
+
+        padding-left: 50px;
+    
+    }
+    
+    
+ #client .heading h5{
+    
+            font-size: 14px;
+            color: #F8991C;
+        }
+    
+ #client .heading h3{
+    
+            font-size: 24px;
+            color: #000;
+            font-weight: 600;
+        }
+
+
+#client .client_card{
+
+    width: 50%;
+    margin-top:60px;
+    
+    padding: 0 138px 0 19px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+
+#client .client_card p{
+
+    font-size: 16px;
+    color: #000;
+    line-height:23px;
+    text-align:justify;
+    
+}
+
+
+
+#client .client_img{
+
+    width: 20%;
+    display: inline-block;
+    
+}
+
+
+#client .client_img img{
+
+    width: 60%;
+    display:block;
+}
+
+
+
+#client .client_name{
+
+    width:80%;
+    padding: 10px 0 10px 5px;
+}
+
+/*client section end*/
+
+
+/*footer start*/
+
+
+footer{
+
+    padding: 80px 40px 40px 40px;
+    background-color: #D9D9D9;
+
+}
+
+
+
+ footer .heading{
+
+        padding-left: 50px;
+    
+    }
+    
+    
+ footer .heading h5{
+    
+            font-size: 14px;
+            color: #F8991C;
+        }
+    
+ footer .heading h3{
+    
+            font-size: 24px;
+            color: #000;
+            font-weight: 600;
+        }
+
+footer .footer_card{
+
+    margin-top:40px;
+    width: 33.33%;
+    text-align:center;
+    padding: 0 3px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+footer .footer_card img{
+
+    width: 100%;
+}
